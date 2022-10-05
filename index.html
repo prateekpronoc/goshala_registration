@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Goshala Registeration</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<style>
+		/* img.background {
+			filter: grayscale(100%);
+	}
+
+	label {
+	cursor: pointer;
+	color: #ffff;
+	
+} */
+	</style>
+</head>
+<body>
+<!-- <body style="background-image: url('images/yogi-bg-cow.jpg');background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;"> -->
+
+	<div class="container">
+		<div class="row g-3 mt-2">
+			<div class="col-md-2">
+				<img src="images/logo.png" class="rounded float-start" alt="Goshal Logo">
+			</div>
+			<div class="col mt-4">
+				<h1>Goshala Registration</h1>
+				<span>Department of Animal Husbandry Uttar Pradesh</span>
+			</div>
+			<div class="col-4 justify-content-md-end">
+				<img src="images/adityanathyogi.jpg" class="rounded float-start" alt="AdityaNathYogi">
+				<div style="clear: left;">
+					<span>Hon'ble Yogi Adityanath ji</span> <br>
+					<span>Hon'ble Chief Minister</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-5">
+		<div class="row">
+			<h3 class="text-center mb-4">Registeration</h3>
+			<form autocomplete="off" class="col-sm-12 col-md-12 col-lg-6 mx-auto" action="javascript:myalertfunc()">
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="GoshalaName" class="col-sm-4 col-form-label">Goshala Name :</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="GoshalaName">
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="EsD" class="col-sm-4 col-form-label">Establishment Date :</label>
+					<div class="col-sm-6">
+						<input type="date" class="form-control" id="EsD">
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="District" class="col-sm-4 col-form-label">District :</label>
+					<div class="col-sm-6">
+						<select class="form-select" id="District">
+							<option value="">Select</option>
+							<option value="Agra">Agra</option>
+							<option value="Aligarh">Aligarh</option>
+							<option value="Allahabad">Allahabad</option>
+							<option value="Ambedkar Nagar">Ambedkar Nagar</option>
+							<option value="Amethi">Amethi</option>
+							<option value="Amroha">Amroha</option>
+							<option value="Auraiya">Auraiya</option>
+							<option value="Azamgarh">Azamgarh</option>
+							<option value="Baghpat">Baghpat</option>
+							<option value="Bahraich">Bahraich</option>
+							<option value="Ballia">Ballia</option>
+							<option value="Balrampur">Balrampur</option>
+							<option value="Banda">Banda</option>
+							<option value="Barabanki">Barabanki</option>
+							<option value="Bareilly">Bareilly</option>
+							<option value="Basti">Basti</option>
+							<option value="Bhadohi">Bhadohi</option>
+							<option value="Bijnor">Bijnor</option>
+							<option value="Budaun">Budaun</option>
+							<option value="Bulandshahr">Bulandshahr</option>
+							<option value="Chandauli">Chandauli</option>
+							<option value="Chitrakoot">Chitrakoot</option>
+							<option value="Deoria">Deoria</option>
+							<option value="Etah">Etah</option>
+							<option value="Etawah">Etawah</option>
+							<option value="Faizabad">Faizabad</option>
+							<option value="Farrukhabad">Farrukhabad</option>
+							<option value="Fatehpur">Fatehpur</option>
+							<option value="Firozabad">Firozabad</option>
+							<option value="Gautam Buddha Nagar">Gautam Buddha Nagar</option>
+							<option value="Ghaziabad">Ghaziabad</option>
+							<option value="Ghazipur">Ghazipur</option>
+							<option value="Gonda">Gonda</option>
+							<option value="Gorakhpur">Gorakhpur</option>
+							<option value="Hamirpur">Hamirpur</option>
+							<option value="Hapur">Hapur</option>
+							<option value="Hardoi">Hardoi</option>
+							<option value="Hathras">Hathras</option>
+							<option value="Jalaun">Jalaun</option>
+							<option value="Jaunpur">Jaunpur</option>
+							<option value="Jhansi">Jhansi</option>
+							<option value="Kannauj">Kannauj</option>
+							<option value="Kanpur Dehat">Kanpur Dehat</option>
+							<option value="Kanpur Nagar">Kanpur Nagar</option>
+							<option value="Kasganj">Kasganj</option>
+							<option value="Kaushambi">Kaushambi</option>
+							<option value="Kheri">Kheri</option>
+							<option value="Kushinagar">Kushinagar</option>
+							<option value="Lalitpur">Lalitpur</option>
+							<option value="Lucknow">Lucknow</option>
+							<option value="Maharajganj">Maharajganj</option>
+							<option value="Mahoba">Mahoba</option>
+							<option value="Mainpuri">Mainpuri</option>
+							<option value="Mathura">Mathura</option>
+							<option value="Mau">Mau</option>
+							<option value="Meerut">Meerut</option>
+							<option value="Mirzapur">Mirzapur</option>
+							<option value="Moradabad">Moradabad</option>
+							<option value="Muzaffarnagar">Muzaffarnagar</option>
+							<option value="Pilibhit">Pilibhit</option>
+							<option value="Pratapgarh">Pratapgarh</option>
+							<option value="Raebareli">Raebareli</option>
+							<option value="Rampur">Rampur</option>
+							<option value="Saharanpur">Saharanpur</option>
+							<option value="Sambhal">Sambhal</option>
+							<option value="Sant Kabir Nagar">Sant Kabir Nagar</option>
+							<option value="Shahjahanpur">Shahjahanpur</option>
+							<option value="Shamli">Shamli</option>
+							<option value="Shravasti">Shravasti</option>
+							<option value="Siddharthnagar">Siddharthnagar</option>
+							<option value="Sitapur">Sitapur</option>
+							<option value="Sonbhadra">Sonbhadra</option>
+							<option value="Sultanpur">Sultanpur</option>
+							<option value="Unnao">Unnao</option>
+							<option value="Varanasi">Varanasi</option>
+						</select>
+					</div>
+				</div>
+				<div class="row ms-lg-4 mb-3">
+					<label for="District" class="col-sm-4 col-form-label">Tehsil :</label>
+					<div class="col-sm-6">
+						<select class="form-select" id="tehsil">
+							<option value="">Select</option>
+							<option value="Koil">Koil</option>
+							<option value="ATRAULI">ATRAULI</option>
+							<option value="KHAIR">KHAIR</option>
+							<option value="IGLAS">IGLAS</option>
+							<option value="GABHANA">GABHANA</option>
+							
+						</select>
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="District" class="col-sm-4 col-form-label">Block :</label>
+					<div class="col-sm-6">
+						<select class="form-select" id="tehsilblock">
+							<option value="">Select</option>
+							<option value="AKARABAD">AKARABAD</option>
+							<option value="DHNIPUR">DHNIPUR</option>
+							<option value="ATRAULI">ATRAULI</option>
+							<option value="BIJAULI">BIJAULI</option>
+							<option value="GANGIRI">GANGIRI</option>
+							<option value="KHAIR">KHAIR</option>
+							<option value="TAPPAL">TAPPAL</option>
+							<option value="GONDA">GONDA</option>
+							<option value="IGLAS">IGLAS</option>
+							<option value="LODHA">LODHA</option>
+							<option value="JAWAN">JAWAN</option>
+							<option value="CHANDAUS">CHANDAUS</option>
+
+						</select>
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="ApplicantName" class="col-sm-4 col-form-label">Applicant Name :</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="ApplicantName">
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="FatherName" class="col-sm-4 col-form-label">Father's Name :</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="FatherName">
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="MobileNo" class="col-sm-4 col-form-label">Mobile Number :</label>
+					<div class="col-sm-6">
+						<input type="tel" class="form-control" placeholder="Enter 10 digit Mobile Number" minlength="10"
+							maxlength="10" id="MobileNo">
+					</div>
+				</div>
+
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="Email" class="col-sm-4 col-form-label">Email :</label>
+					<div class="col-sm-6">
+						<input type="email" class="form-control" id="Email">
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="GoShalaAddress" class="col-sm-4 col-form-label">Goshala Address :</label>
+					<div class="col-sm-6">
+						<textarea class="form-control" id="GoShalaAddress" rows="3" ></textarea>
+					</div>
+				</div>
+
+				<div class="row ms-lg-4 mb-3">
+					<label for="NoOfCows" class="col-sm-4 col-form-label">Number Of Cows :</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" maxlength="2" id="NoOfCows">
+					</div>
+				</div>
+
+				<div class="text-center mt-3 mb-3"><button type="submit""
+						class="btn btn-primary text-center" >Submit</button></div>
+			</form>
+		</div>
+	</div>
+
+
+	<script>
+		$('input[id*=MobileNo]').on('keydown', function (event) {
+			// Allow special chars + arrows 
+			if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9
+				|| event.keyCode == 27 || event.keyCode == 13
+				|| (event.keyCode == 65 && event.ctrlKey === true)
+				|| (event.keyCode >= 35 && event.keyCode <= 39)) {
+				return;
+			} else {
+
+				if (event.shiftKey || (event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105)) {
+					$('#errorr').show();
+					event.preventDefault();
+				}
+			}
+		});
+		$('input[id*=NoOfCows]').on('keydown', function (event) {
+			// Allow special chars + arrows 
+			if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9
+				|| event.keyCode == 27 || event.keyCode == 13
+				|| (event.keyCode == 65 && event.ctrlKey === true)
+				|| (event.keyCode >= 35 && event.keyCode <= 39)) {
+				return;
+			} else {
+
+				if (event.shiftKey || (event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105)) {
+					$('#errorr').show();
+					event.preventDefault();
+				}
+			}
+		}); 
+	</script>
+
+</body>
+
+</html>
